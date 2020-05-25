@@ -1,0 +1,9 @@
+PropertiesLoader\PropertiesLoader.class
+APIHandlers\GETAPIExample.class
+BaseRequests\DeleteRequest.class
+BaseRequests\GetRequest.class
+BaseRequests\PostRequest.class
+BaseRequests\PutRequest.class
+GlobalConfiguration\GlobalConfiguration.class
+ReportOutput\ReporterOutput.class
+BaseRequests\BaseRequest\BaseRequest.class

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Generate Session Keys API Tests">
+
+    <parameter name="environment" value="prod"/>
+
+    <parameter name="id" value="2"/>
+    <test name="Generate Session Keys Test">
+        <classes>
+            <class name="Tests.PostTestCases.POSTGenerateSessionKeysAPITests"/>
+        </classes>
+    </test>
+
+</suite>
