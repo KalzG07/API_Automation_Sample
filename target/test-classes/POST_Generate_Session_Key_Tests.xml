@@ -5,8 +5,7 @@
 
     <parameter name="environment" value="prod"/>
 
-    <parameter name="id" value="2"/>
-    <test name="Generate Session Keys Test">
+    <test name="POST Generate Session Keys Tests">
         <classes>
             <class name="Tests.PostTestCases.POSTGenerateSessionKeysAPITests"/>
         </classes>
