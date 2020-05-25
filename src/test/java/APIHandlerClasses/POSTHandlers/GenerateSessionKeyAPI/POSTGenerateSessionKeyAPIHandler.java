@@ -1,13 +1,13 @@
 package APIHandlerClasses.POSTHandlers.GenerateSessionKeyAPI;
 
 import BaseRequests.PostRequest;
-import PropertiesLoader.PropertiesLoader;
+import Configurations.PropertiesLoader.PropertiesLoader;
 import com.google.gson.ExclusionStrategy;
 import com.google.gson.FieldAttributes;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import org.testng.Assert;
-import static ReportOutput.ReporterOutput.ReporterLog;
+import static Util.ReportOutput.ReporterOutput.ReporterLog;
 
 import java.util.HashMap;
 
@@ -70,7 +70,7 @@ public class POSTGenerateSessionKeyAPIHandler extends PostRequest {
         return generateSessionKeyRequest;
     }
     
-    public GenerateSessionKeyReponse getGenerateSessionKeyReponse(){
+    public GenerateSessionKeyReponse getGenerateSessionKeyResponse(){
         return generateSessionKeyReponse;
     }
     
@@ -99,5 +99,11 @@ public class POSTGenerateSessionKeyAPIHandler extends PostRequest {
         });
         
         return gsonBuilder.serializeNulls().setPrettyPrinting().create();
+    }
+
+    public String getMerchantSessionKey(String accessToken){
+        HashMap response = post(accessToken);
+        GenerateSessionKeyReponse generateSessionKeyReponse = gsonresponse.fromJson(response.get("responseBody").toString(), GenerateSessionKeyReponse.class);
+        return generateSessionKeyReponse.getMerchantSessionKey();
     }
 }

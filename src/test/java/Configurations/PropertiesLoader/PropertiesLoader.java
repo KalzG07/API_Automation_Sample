@@ -1,6 +1,6 @@
-package PropertiesLoader;
+package Configurations.PropertiesLoader;
 
-import ReportOutput.ReporterOutput;
+import Util.ReportOutput.ReporterOutput;
 import org.springframework.core.io.ClassPathResource;
 
 import java.io.IOException;

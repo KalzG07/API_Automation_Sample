@@ -2,14 +2,14 @@ package APIHandlerClasses.GETHandlers.GETLatestRegionStatsAPI;
 
 import APIHandlerClasses.GETHandlers.GETLatestRegionStatsAPI.Response.GetCovidSummaryByregionResponse;
 import BaseRequests.GetRequest;
-import PropertiesLoader.PropertiesLoader;
+import Configurations.PropertiesLoader.PropertiesLoader;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import org.testng.Assert;
 
 import java.util.HashMap;
 
-import static ReportOutput.ReporterOutput.ReporterLog;
+import static Util.ReportOutput.ReporterOutput.ReporterLog;
 
 public class GETRegionStatisticsAPIHandler extends GetRequest {
 

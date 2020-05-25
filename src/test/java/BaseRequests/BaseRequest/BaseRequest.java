@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.concurrent.TimeUnit;
 
-import static ReportOutput.ReporterOutput.ReporterLog;
+import static Util.ReportOutput.ReporterOutput.ReporterLog;
 
 public class BaseRequest {
     private OkHttpClient.Builder requestBuilder = new OkHttpClient.Builder();

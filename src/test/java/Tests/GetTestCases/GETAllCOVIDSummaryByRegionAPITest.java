@@ -1,9 +1,8 @@
 package Tests.GetTestCases;
 
-import APIHandlerClasses.GETHandlers.GETAllCountriesDataAPI.GETAllCountriesDataAPIHandler;
 import APIHandlerClasses.GETHandlers.GETLatestRegionStatsAPI.GETRegionStatisticsAPIHandler;
 import APIHandlerClasses.GETHandlers.GETLatestRegionStatsAPI.Response.GetCovidSummaryByregionResponse;
-import GlobalConfiguration.GlobalConfiguration;
+import Configurations.GlobalConfiguration.GlobalConfiguration;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;

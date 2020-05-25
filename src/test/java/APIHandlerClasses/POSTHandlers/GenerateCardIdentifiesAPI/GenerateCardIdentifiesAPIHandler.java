@@ -4,7 +4,7 @@ import APIHandlerClasses.POSTHandlers.GenerateCardIdentifiesAPI.RequestClasses.C
 import APIHandlerClasses.POSTHandlers.GenerateCardIdentifiesAPI.RequestClasses.GenerateCardIdentifiesRequest;
 import APIHandlerClasses.POSTHandlers.GenerateCardIdentifiesAPI.ResponseClasses.GenerateCardIdentifiesResponse;
 import BaseRequests.PostRequest1;
-import PropertiesLoader.PropertiesLoader;
+import Configurations.PropertiesLoader.PropertiesLoader;
 import com.google.gson.ExclusionStrategy;
 import com.google.gson.FieldAttributes;
 import com.google.gson.Gson;
@@ -13,7 +13,7 @@ import org.testng.Assert;
 
 import java.util.HashMap;
 
-import static ReportOutput.ReporterOutput.ReporterLog;
+import static Util.ReportOutput.ReporterOutput.ReporterLog;
 
 public class GenerateCardIdentifiesAPIHandler extends PostRequest1 {
     private PropertiesLoader propertiesLoader = new PropertiesLoader();

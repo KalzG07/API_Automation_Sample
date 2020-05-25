@@ -1,6 +1,6 @@
-package GlobalConfiguration;
+package Configurations.GlobalConfiguration;
 
-import PropertiesLoader.PropertiesLoader;
+import Configurations.PropertiesLoader.PropertiesLoader;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 

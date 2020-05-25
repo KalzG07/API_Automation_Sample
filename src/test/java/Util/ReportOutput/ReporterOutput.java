@@ -1,4 +1,4 @@
-package ReportOutput;
+package Util.ReportOutput;
 
 import org.testng.Reporter;
 

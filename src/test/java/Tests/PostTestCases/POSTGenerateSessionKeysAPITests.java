@@ -2,7 +2,7 @@ package Tests.PostTestCases;
 
 import APIHandlerClasses.POSTHandlers.GenerateSessionKeyAPI.GenerateSessionKeyRequest;
 import APIHandlerClasses.POSTHandlers.GenerateSessionKeyAPI.POSTGenerateSessionKeyAPIHandler;
-import GlobalConfiguration.GlobalConfiguration;
+import Configurations.GlobalConfiguration.GlobalConfiguration;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
