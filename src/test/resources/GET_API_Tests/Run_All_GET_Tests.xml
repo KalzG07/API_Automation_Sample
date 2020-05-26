@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Generate Session Keys API Tests">
+
+    <listeners>
+        <listener class-name="Util.Listeners.Listeners"/>
+    </listeners>
+
+
+    <suite-files>
+        <suite-file path="GET_All_Countries_Data_Tests.xml"/>
+        <suite-file path="GET_Covid_Stats_by_Region_Name_Tests.xml"/>
+    </suite-files>
+
+</suite>
