@@ -9,6 +9,9 @@ This repository contains an API Automation sample that is written in JAVA.
 * Clone this repo to your local machine, and open the project in Intellij or an IDE of your choice.
 * Wait for the dependencies and libraries to auto import before running.
 
+### What is the expected result? ###
+Which APIs are used in the sample:
+* 2 POST APIs, namely: Generate 
 ### Tools ###
 
 * The project contains and utilises the following libraries:
