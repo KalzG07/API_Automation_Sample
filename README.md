@@ -11,7 +11,14 @@ This repository contains an API Automation sample that is written in JAVA.
 
 ### What is the expected result? ###
 Which APIs are used in the sample:
-* 2 POST APIs, namely: Generate 
+2 POST APIs, namely:
+1. Generate Session key -  which will generate a session key to be used as an auth token.
+2. Generate Card Identities - Will generate card identifier from certain card details.
+
+2 GET APIs, namely:
+1. Get all countries data - which will return data related to all countries.
+2. Get COVID Stats by region name - which will take a region name as a parameter and return the COVID stats for that region.
+
 ### Tools ###
 
 * The project contains and utilises the following libraries:
